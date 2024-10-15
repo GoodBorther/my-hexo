@@ -147,13 +147,13 @@ search:
 
 ######## Comments ########
 comments:
-  service: utterances
+  service: beaudar
   # beaudar
   # https://beaudar.lipk.org/
   beaudar:
-    repo: xxx/xxx
+    repo: GoodBorther/my-hexo
     issue-term: pathname
-    issue-number:
+    issue-number: 10
     theme: preferred-color-scheme
     label:
     input-position: top # top/bottom 评论框位置
@@ -165,10 +165,10 @@ comments:
   # https://utteranc.es/
   utterances:
     repo: GoodBorther/my-hexo
-    issue-term: pathname
-    issue-number:
-    theme: preferred-color-scheme
-    label:
+#    issue-term: pathname
+#    issue-number:
+#    theme: preferred-color-scheme
+#    label:
   # giscus
   # https://giscus.app/zh-CN
   giscus:
@@ -189,9 +189,9 @@ comments:
 
   # Twikoo
   # https://twikoo.js.org/
-  twikoo:
-    js: https://gcore.jsdelivr.net/npm/twikoo@1.6.8/dist/twikoo.all.min.js # 建议锁定版本
-    envId: hugo-5g350k2z2130e991 # vercel函数
+#  twikoo:
+#    js: https://gcore.jsdelivr.net/npm/twikoo@1.6.8/dist/twikoo.all.min.js # 建议锁定版本
+#    envId: hugo-5g350k2z2130e991 # vercel函数
 
   # Waline
   # https://waline.js.org/

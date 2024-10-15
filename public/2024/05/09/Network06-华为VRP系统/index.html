@@ -287,12 +287,12 @@
       <p>快来参与讨论吧~</p>
 
     </section>
-    <section class='body cmt-body utterances'>
+    <section class='body cmt-body beaudar'>
       
 
 <svg class="loading" style="vertical-align:middle;fill:currentColor;overflow:hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2709"><path d="M832 512c0-176-144-320-320-320V128c211.2 0 384 172.8 384 384h-64zM192 512c0 176 144 320 320 320v64C300.8 896 128 723.2 128 512h64z" p-id="2710"></path></svg>
 
-<div id="utterances" repo="GoodBorther/my-hexo" issue-term="pathname" theme="preferred-color-scheme"></div>
+<div id="beaudar" repo="GoodBorther/my-hexo" issue-term="pathname" issue-number="10" theme="preferred-color-scheme" input-position="top" comment-order="desc" loading="false" branch="main"></div>
 
     </section>
   </div>
@@ -633,10 +633,10 @@
 <!-- optional -->
 
   <script type="module">
-  const el = document.querySelector("#comments #utterances");
-  util.viewportLazyload(el, load_utterances, false);
+  const el = document.querySelector('#comments #beaudar');
+  util.viewportLazyload(el, load_beaudar, false);
 
-  function load_utterances() {
+  function load_beaudar() {
     if (!el) return;
     try {
       el.innerHTML = '';
@@ -644,7 +644,7 @@
       console.error(error);
     }
     const script = document.createElement('script');
-    script.src = 'https://utteranc.es/client.js';
+    script.src = 'https://beaudar.lipk.org/client.js';
     script.async = true;
     for (const key of Object.keys(el.attributes)) {
       const attr = el.attributes[key];
