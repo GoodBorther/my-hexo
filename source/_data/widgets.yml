@@ -1,0 +1,51 @@
+welcome:
+  layout: markdown
+  title: 
+  linklist: # 与 linklist 组件写法相同
+    columns: 1 
+    items:
+      - icon:
+        title: 江畔何人初见月，江月何年初照人
+        url: /about/
+  content:
+    欢迎来到Mcj's Blog，可以通过邮箱或评论联系作者哦~
+
+    mcj5171198@163.com
+  src: # 可以设置外部 md 文件链接
+tagcloud:
+  layout: tagcloud
+  title: 标签云
+  # 标签云配置
+  min_font: 12
+  max_font: 24
+  amount: 100
+  orderby: name
+  order: 1 # 1, sac 升序；-1, desc 降序
+  color: false # 使用颜色
+  start_color:  # 开始的颜色。您可使用十六进位值（'#b700ff'），rgba（rgba(183, 0, 255, 1)），hsla（hsla(283, 100%, 50%, 1)）或 颜色关键字。此变量仅在 color 参数开启时才有用。
+  end_color:  # 结束的颜色。您可使用十六进位值（'#b700ff'），rgba（rgba(183, 0, 255, 1)），hsla（hsla(283, 100%, 50%, 1)）或 颜色关键字。此变量仅在 color 参数开启时才有用。
+  show_count: false # 显示每个标签的文章总数
+qaq:
+  layout: markdown
+  title: 《王门四句教》
+  linklist: # 与 linklist 组件写法相同
+    columns: 1 
+    items:
+      - icon:
+        title: 关于作者
+        url: /about/
+  content: |
+    ### 无善无恶心之体，
+
+    ### 有善有恶意之动，
+
+    ### 知善知恶是良知，
+
+    ### 为善去恶是格物。
+  src: # 可以设置外部 md 文件链接
+timeline:
+  layout: timeline
+  title: 近期动态
+  api: https://api.github.com/repos/GoodBorther/blog/issues # 若你想限制数量，在api链接后面加上?per_page=1指限制为1条
+  user: # 是否过滤只显示某个人发布的内容，如果要筛选多人，用英文逗号隔开
+  hide: # title,footer # 隐藏标题或底部 # 此功能需要 Stellar v1.13.0
