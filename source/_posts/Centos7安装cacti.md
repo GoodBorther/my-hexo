@@ -3,7 +3,7 @@ title: Centos7安装cacti
 date: 2024-05-21 22:11:42
 tags:
     - cacti
-categories: Devops
+categories: [Devops]
 cover: https://up.36992.com/pic/e6/c5/51/e6c551e768092c8655292d89a4034a74.jpg
 ---
 # Cacti_install
