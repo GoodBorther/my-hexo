@@ -147,7 +147,7 @@ search:
 
 ######## Comments ########
 comments:
-  service: beaudar
+  service: twikoo
   # beaudar
   # https://beaudar.lipk.org/
   beaudar:
@@ -189,9 +189,9 @@ comments:
 
   # Twikoo
   # https://twikoo.js.org/
-#  twikoo:
-#    js: https://gcore.jsdelivr.net/npm/twikoo@1.6.8/dist/twikoo.all.min.js # 建议锁定版本
-#    envId: hugo-5g350k2z2130e991 # vercel函数
+  twikoo:
+#js: https://gcore.jsdelivr.net/npm/twikoo@1.6.8/dist/twikoo.all.min.js # 建议锁定版本
+    envId: https://www.mengge.site/twikoo/ # vercel函数
 
   # Waline
   # https://waline.js.org/
