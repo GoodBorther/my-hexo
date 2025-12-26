@@ -147,11 +147,11 @@ search:
 
 ######## Comments ########
 comments:
-  service: twikoo
+  service: beaudar
   # beaudar
   # https://beaudar.lipk.org/
   beaudar:
-    repo: GoodBorther/my-hexo
+    repo: GoodBorther/blog-comments
     issue-term: pathname
     issue-number: 10
     theme: preferred-color-scheme
